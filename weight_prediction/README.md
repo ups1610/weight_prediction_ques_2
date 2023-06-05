@@ -16,6 +16,17 @@ python setup.py install
 
 ### About the project
 
+Imagine you have a dataset where you have different features like Age ,
+Gender , Height , Weight , BMI , and Blood Pressure 
+
+and you have to classify the people into different classes like Normal , Overweight , Obesity , Underweight , and 
+
+Extreme Obesity by using any 4 different classification algorithms. Now you have to build a model which
+
+can classify people into different classes.
+
+### Description
+
 The above dataset get cleaned and preprocessed using label encoding technique.
 
 Since from the observation and by doing EDA analysis, its a classification problem so we apply 
