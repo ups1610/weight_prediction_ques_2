@@ -1,0 +1,23 @@
+[ 2023-06-04 23:45:55,896 ] 26 root - INFO - Data Ingestion methods Starts
+[ 2023-06-04 23:45:55,906 ] 29 root - INFO - Dataset read as pandas Dataframe
+[ 2023-06-04 23:45:55,924 ] 33 root - INFO - Train test split
+[ 2023-06-04 23:45:55,943 ] 39 root - INFO - Ingestion of Data is completed
+[ 2023-06-04 23:45:55,970 ] 60 root - INFO - Read train and test data completed
+[ 2023-06-04 23:45:55,977 ] 61 root - INFO - Train Dataframe Head : 
+   Gender        Age    Height      Weight family_history_with_overweight FAVC      FCVC       NCP        CAEC SMOKE      CH2O SCC       FAF       TUE       CALC                 MTRANS           NObeyesdad
+0  Female  21.000000  1.630000   60.000000                            yes  yes  3.000000  3.000000      Always   yes  2.000000  no  2.000000  0.000000  Sometimes  Public_Transportation        Normal_Weight
+1  Female  20.924956  1.752531  133.618706                            yes  yes  3.000000  3.000000   Sometimes    no  2.887659  no  1.480919  0.779641  Sometimes  Public_Transportation     Obesity_Type_III
+2  Female  22.899740  1.661715   82.595793                            yes  yes  1.203754  1.355354   Sometimes    no  2.765593  no  0.128342  1.659476  Sometimes  Public_Transportation       Obesity_Type_I
+3  Female  21.837996  1.588046   44.236067                             no   no  3.000000  1.696080  Frequently    no  2.550307  no  1.098862  0.000000         no  Public_Transportation  Insufficient_Weight
+4    Male  25.994746  1.811602  106.042142                            yes  yes  3.000000  3.000000   Sometimes    no  2.858171  no  1.813318  0.680215  Sometimes  Public_Transportation       Obesity_Type_I
+[ 2023-06-04 23:45:55,981 ] 62 root - INFO - Test Dataframe Head  : 
+   Gender        Age    Height      Weight family_history_with_overweight FAVC  FCVC       NCP        CAEC SMOKE      CH2O  SCC       FAF       TUE       CALC                 MTRANS           NObeyesdad
+0  Female  20.406871  1.755978   53.699561                            yes  yes   2.0  3.891994  Frequently    no  1.863930   no  2.870127  2.000000         no  Public_Transportation  Insufficient_Weight
+1  Female  26.000000  1.624950  111.004920                            yes  yes   3.0  3.000000   Sometimes    no  2.704315   no  0.000000  0.322666  Sometimes  Public_Transportation     Obesity_Type_III
+2    Male  18.000000  1.850000   60.000000                            yes  yes   3.0  4.000000   Sometimes    no  2.000000  yes  2.000000  0.000000  Sometimes             Automobile  Insufficient_Weight
+3  Female  21.000000  1.520000   42.000000                             no  yes   3.0  1.000000  Frequently    no  1.000000   no  0.000000  0.000000  Sometimes  Public_Transportation  Insufficient_Weight
+4    Male  22.000000  1.750000   74.000000                            yes   no   2.0  3.000000   Sometimes    no  2.000000   no  1.000000  2.000000  Sometimes                   Bike        Normal_Weight
+[ 2023-06-04 23:45:55,982 ] 64 root - INFO - Removing duplicated data
+[ 2023-06-04 23:45:55,986 ] 69 root - INFO - LabelEncode the data
+[ 2023-06-04 23:45:55,986 ] 23 root - INFO - Data Transformation initiated
+[ 2023-06-04 23:45:56,008 ] 87 root - INFO - Preprocessed data csv's file saved
