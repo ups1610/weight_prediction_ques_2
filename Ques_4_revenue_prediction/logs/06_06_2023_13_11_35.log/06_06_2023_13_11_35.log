@@ -1,0 +1,30 @@
+[ 2023-06-06 13:11:37,588 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2023-06-06 13:11:37,607 ] 30 root - INFO - Dataset read as pandas Dataframe
+[ 2023-06-06 13:11:37,683 ] 34 root - INFO - Train test split
+[ 2023-06-06 13:11:37,777 ] 40 root - INFO - Ingestion of Data is completed
+[ 2023-06-06 13:11:37,840 ] 50 root - INFO - Read train and test data completed
+[ 2023-06-06 13:11:37,857 ] 51 root - INFO - Train Dataframe Head : 
+   Administrative  Administrative_Duration  Informational  Informational_Duration  ProductRelated  ProductRelated_Duration  BounceRates  ExitRates  PageValues  SpecialDay Month  OperatingSystems  Browser  Region  TrafficType        VisitorType  Weekend  Revenue
+0               0                      0.0              0                     0.0               7                95.000000     0.014286   0.061905    0.000000         0.0   Mar                 2        6       1            1  Returning_Visitor    False    False
+1               2                     14.0              0                     0.0              81              1441.910588     0.002469   0.013933    2.769599         0.0   Nov                 2        2       3            2  Returning_Visitor    False    False
+2               0                      0.0              0                     0.0               1                 0.000000     0.200000   0.200000    0.000000         0.0   Mar                 2        2       1            1  Returning_Visitor    False    False
+3               5                     49.2              4                   379.0               5                74.600000     0.000000   0.018182    8.326728         0.0   Sep                 2        2       8            2        New_Visitor    False    False
+4               0                      0.0              1                     5.0               9               279.000000     0.040000   0.041667    0.000000         0.0   Nov                 3        2       7            8        New_Visitor     True    False
+[ 2023-06-06 13:11:37,870 ] 52 root - INFO - Test Dataframe Head  : 
+   Administrative  Administrative_Duration  Informational  Informational_Duration  ProductRelated  ProductRelated_Duration  BounceRates  ExitRates  PageValues  SpecialDay Month  OperatingSystems  Browser  Region  TrafficType        VisitorType  Weekend  Revenue
+0               3               142.500000              0                    0.00              48              1052.255952     0.004348   0.013043    0.000000         0.0   Nov                 1        8       6           11  Returning_Visitor    False    False
+1               6               437.391304              2                  235.55              83              2503.881781     0.002198   0.004916    2.086218         0.0   Mar                 2        2       3            2  Returning_Visitor    False     True
+2               1                41.125000              0                    0.00             126              4310.004668     0.000688   0.012823    3.451072         0.0   Nov                 2        2       2            2  Returning_Visitor    False    False
+3               2               141.000000              0                    0.00              10               606.666667     0.008333   0.026389   36.672294         0.0   Aug                 2        5       7            4  Returning_Visitor    False    False
+4              18               608.140000              6                  733.80             168              4948.398759     0.006632   0.013528   10.150644         0.0   Aug                 2        2       3            1  Returning_Visitor     True    False
+[ 2023-06-06 13:11:37,870 ] 55 root - INFO - LabelEncode the data
+[ 2023-06-06 13:11:37,870 ] 23 root - INFO - Data Transformation initiated
+[ 2023-06-06 13:11:37,970 ] 76 root - INFO - Preprocessed data csv's file saved
+[ 2023-06-06 13:11:37,970 ] 29 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-06-06 13:11:38,957 ] 51 root - INFO - accuracy score : 0.8933495539334956
+[ 2023-06-06 13:11:38,959 ] 52 root - INFO - confusion matrix : [[1983   72]
+ [ 191  220]]
+[ 2023-06-06 13:11:38,966 ] 59 root - INFO - Model trained successfully and saved
+[ 2023-06-06 13:11:38,971 ] 68 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-06-06 13:11:40,269 ] 86 root - INFO - Random Forest Regressor report : 38.5339731467579
+[ 2023-06-06 13:11:40,272 ] 95 root - INFO - model trained successfully and saved
